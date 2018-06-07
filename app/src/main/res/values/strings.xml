@@ -24,7 +24,7 @@
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
-    <string name="banner_home_footer">ca-app-pub-3574223201894561/6327776533</string>
+    <string name="banner_home_footer">ca-app-pub-4983381967091006/2561870386</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
