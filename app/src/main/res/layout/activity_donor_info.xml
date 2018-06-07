@@ -8,6 +8,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@mipmap/xc"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.dellpc.bloodbank.DonorInfo">
 
@@ -28,9 +29,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView10"
-        android:layout_alignStart="@+id/textView10"
         android:layout_marginTop="49dp"
-        android:id="@+id/textView11" />
+        android:id="@+id/textView11"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
 
     <TextView
         android:text="DOB"
@@ -89,7 +91,6 @@
         android:id="@+id/button14" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView11"
@@ -98,7 +99,6 @@
         android:id="@+id/textView16" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView13"
@@ -107,7 +107,6 @@
         android:id="@+id/textView22" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView17"
@@ -116,7 +115,6 @@
         android:id="@+id/textView23" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView18"
@@ -125,7 +123,6 @@
         android:id="@+id/textView24" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView19"
@@ -136,7 +133,6 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         app:srcCompat="@drawable/msz"
         android:id="@+id/imageButton9"
         android:scaleType="fitCenter"
@@ -144,7 +140,8 @@
         android:layout_toRightOf="@+id/imageButton6"
         android:layout_alignTop="@+id/imageButton6"
         android:layout_alignRight="@+id/textView19"
-        android:layout_alignEnd="@+id/textView19" />
+        android:layout_alignEnd="@+id/textView19"
+        android:backgroundTint="#ffffff" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -155,6 +152,18 @@
         android:layout_alignTop="@+id/button11"
         android:layout_alignRight="@+id/textView18"
         android:layout_alignEnd="@+id/textView18"
-        android:layout_alignBottom="@+id/button11" />
+        android:layout_alignBottom="@+id/button11"
+        android:backgroundTint="#ffffff" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:id="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageButton9"
+        android:layout_toRightOf="@+id/imageButton9"
+        android:layout_toEndOf="@+id/imageButton9"
+        android:backgroundTint="#ffffff"
+        android:tint="#000000" />
 
 </RelativeLayout>

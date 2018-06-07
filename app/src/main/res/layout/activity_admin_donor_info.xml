@@ -8,71 +8,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/xc"
     tools:context="com.example.dellpc.bloodbank.AdminDonorInfo">
 
     <TextView
-        android:text="Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="11dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="49dp"
-        android:id="@+id/textView21" />
-
-    <TextView
-        android:text="DOB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView21"
-        android:layout_alignLeft="@+id/textView21"
-        android:layout_alignStart="@+id/textView21"
-        android:layout_marginTop="45dp"
-        android:id="@+id/textView25" />
-
-    <TextView
-        android:text="Number"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView25"
-        android:layout_alignLeft="@+id/textView25"
-        android:layout_alignStart="@+id/textView25"
-        android:layout_marginTop="44dp"
-        android:id="@+id/textView27" />
-
-    <TextView
-        android:text="Donor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:id="@+id/textView30"
-        android:layout_below="@+id/textView29"
-        android:layout_alignLeft="@+id/textView27"
-        android:layout_alignStart="@+id/textView27" />
-
-    <TextView
-        android:text="Sex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView28"
-        android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/textView25"
-        android:layout_alignEnd="@+id/textView25" />
-
-    <TextView
-        android:text="Blood Group"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="53dp"
-        android:id="@+id/textView29"
-        android:layout_below="@+id/textView28"
-        android:layout_alignLeft="@+id/textView30"
-        android:layout_alignStart="@+id/textView30" />
-
-    <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView21"
@@ -80,16 +19,6 @@
         android:id="@+id/textView32" />
 
     <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView33"
-        android:layout_above="@+id/textView27"
-        android:layout_alignLeft="@+id/textView32"
-        android:layout_alignStart="@+id/textView32" />
-
-    <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView29"
@@ -98,7 +27,6 @@
         android:id="@+id/textView36" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView35"
@@ -108,7 +36,6 @@
         android:layout_alignStart="@+id/textView36" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView34"
@@ -118,7 +45,6 @@
         android:layout_alignStart="@+id/textView35" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView37"
@@ -128,24 +54,96 @@
         android:layout_alignStart="@+id/textView36" />
 
     <TextView
+        android:text="Sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/textView27"
+        android:layout_alignRight="@+id/textView25"
+        android:layout_alignEnd="@+id/textView25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView33"
+        android:layout_alignBaseline="@+id/textView25"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignLeft="@+id/textView32"
+        android:layout_alignStart="@+id/textView32" />
+
+    <TextView
+        android:text="Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView25" />
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView38"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="DOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Blood Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView29"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
         android:text="USER INFO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#800000"
         android:textSize="25dp"
+        android:id="@+id/textView38"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/textView29"
         android:layout_toEndOf="@+id/textView29"
-        android:id="@+id/textView38" />
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="25dp" />
 
     <Button
-        android:text="Delete User"
+        android:text="Back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/button22"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/textView38"
-        android:layout_alignEnd="@+id/textView38"
-        android:layout_marginBottom="12dp"
-        android:id="@+id/button22" />
+        android:layout_toRightOf="@+id/textView38"
+        android:layout_toEndOf="@+id/textView38"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
 
 </RelativeLayout>

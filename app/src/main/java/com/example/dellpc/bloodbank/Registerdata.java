@@ -9,18 +9,19 @@ public class Registerdata {
     String sex;
     String bloodgrp;
     String email_id;
+    String donor;
     public String getPassword(){return password;}
     public void setPassword(String password){this.password=password;}
     String password;
     public Registerdata(){}
-    public Registerdata(int id,String name,String dob,String email_id,String number,String sex,String bloodgrp){
-        this._id=id;
+    public Registerdata(String email_id,String name,String dob,String number,String sex,String bloodgrp,String donor){
         this.name=name;
         this.dob=dob;
         this.number=number;
         this.sex=sex;
-        this.bloodgrp=bloodgrp;
         this.email_id=email_id;
+        this.donor=donor;
+        this.bloodgrp=bloodgrp;
     }
     public int getID(){
         return this._id;
@@ -63,5 +64,11 @@ public class Registerdata {
     }
     public void setemail(String email_id){
         this.email_id=email_id;
+    }
+    public String getDonor(){
+        return donor;
+    }
+    public void setDonor(String donor){
+        this.donor=donor;
     }
 }
